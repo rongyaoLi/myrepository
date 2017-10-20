@@ -1,0 +1,88 @@
+★★★★★★★★★★★★★★★★★★★★
+	任务:
+		yum install gcc-c++
+
+                cat catalina.2017-07-29.log
+                172.16.134.128
+                ssh root@172.16.134.128
+                ./bin/redis-server redis.conf 
+                ./bin/redis-cli
+—————————————————————————————————————————--
+"172.16.134.128", 6379
+ps -ef |grep redis
+href="javascript:void(0);" onclick="del(${b.id})"
+https://192.168.148.26:8443/svn/my_project_repository/ 
+——————————————————————————————————————————
+Enterprise Manager Database Control URL - (orcl) :
+http://172.16.134.129:1158/em
+
+数据库配置文件已经安装到 C:\oracle\product\10.2.0,同时其他选定的安装组件也已经安装到 C:\oracle\product\10.2.0\db_1。
+iSQL*Plus URL 为:
+http://172.16.134.129:5560/isqlplus
+
+iSQL*Plus DBA URL 为:
+http://172.16.134.129:5560/isqlplus/dba
+
+
+/Users/lirongyao/Documents/apache-maven-3.5.0
+
+
+
+export M2_HOME=/Users/lirongyao/Documents/apache-maven-3.5.0
+
+export PATH=$PATH:$M2_HOME/bin
+
+
+vim .bash_profile
+
+export CXF_HOME=/Users/lirongyao/Documents/apache-cxf-3.1.13
+export PATH=$PATH:$CXF_HOME/bin
+
+source .bash_profile
+
+:wq
+
+sudo chmod 755 *.sh
+./shutdown.sh
+
+-Xms 1024m -Xmx 1024m -XX:PermSize=128M -XX:MaxPermSize=256M
+
+./src/redis-server ./redis.conf
+shutdown
+http://127.0.0.1:8080/bos_fore/customerAction_activeMail?telephone=18638389515&activecode=3645132273188238450470050348205553775464504976376529635859166905
+
+/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+
+./activemq start  
+sudo service iptables start status
+tail -f 
+cp bos_management_web.war ./apache-tomcat-7.0.47/webapps
+
+jps
+1、安装git服务环境准备
+yum -y install curl curl-devel zlib-devel openssl-devel perl cpio expat-devel gettext-devel gcc cc
+2、下载git-2.5.0.tar.gz
+1）tar -zxf git-2.5.0.tar.gz
+2）cd git-2.5.0
+3）autoconf
+4）./configure
+5）make
+6）make install
+3、添加用户
+adduser -r -s /bin/sh -c 'git version control' -d /home/git git
+4、设置/home/git文件夹操作权限
+mkdir /home/git
+chown git:git /home/git
+5、设置密码
+passwd git
+输入两次密码，密码为git
+6、切换到git用户
+su git
+7、创建git仓库
+git --bare init /home/git/mygit
+注意：如果不使用“--bare”参数，初始化仓库后，提交master分支时报错。这是由于git默认拒绝了push操作，需要.git/config添加如下代码：
+[receive]
+      denyCurrentBranch = ignore
+推荐使用：git --bare init初始化仓库
+
+https://github.com/rongyaoLi/myrepository.git
